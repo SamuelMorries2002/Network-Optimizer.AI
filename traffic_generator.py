@@ -1,4 +1,3 @@
-pip install scapy
 from scapy.all import * 
 import random
 def run_traffic():
