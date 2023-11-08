@@ -11,7 +11,7 @@ st.write(f"Hello, {name}!")
 
 st.write("This is a simple website created with Streamlit.")
 
-if st.button("Generate Traffic"):
-    run_traffic() 
+#if st.button("Generate Traffic"):
+    #run_traffic() 
 
 st.write("Traffic generated!")
