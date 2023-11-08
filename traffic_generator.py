@@ -2,11 +2,11 @@ from scapy.all import *
 import random
 def run_traffic():
 
- target_ip = '35.201.127.49' 
+ target_ip = '172.203.51.72' 
 
 # ICMP for connectivity testing
  ping = IP(dst=target_ip)/ICMP()  
- send(ping,count=50)
+ sendp(ping,count=50)
 
 #ICMP Destination Unreachable
  unreach = IP(dst=target_ip, proto=1)/ICMP(type=3, code=3) 
